@@ -5,11 +5,27 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
             ArrayList<Pessoa> listaDePessoas = new ArrayList<>();
-            Pessoa jose = new Pessoa();
 
+            Pessoa jose = new Pessoa();
             jose.setIdade(25);
             jose.setNome("josé silva");
             System.out.println(jose.toString());
+            //adicionando novas pessoas
+            //Mario
+            Pessoa mario = new Pessoa();
+            mario.setNome("Mario");
+            mario.setIdade(31);
+            System.out.println(mario.toString());
+            //Maria
+            Pessoa maria = new Pessoa();
+            maria.setNome("Maria");
+            maria.setIdade(45);
+            System.out.println(maria.toString());
+            //Sonia
+            Pessoa sonia = new Pessoa();
+            sonia.setNome("Sonia");
+            sonia.setIdade(45);
+            System.out.println(sonia.toString());
 
     }
 }
