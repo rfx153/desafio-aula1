@@ -35,6 +35,7 @@ public class Main {
             listaDePessoas.add(sonia);
             //imprimindo o tamanho da lista
             System.out.println("o tamano da lista é:" + listaDePessoas.size());
-
+            // Imprima a primeira pessoa da lista utilizando o método get.
+            System.out.println("imprimindo a primeira pessoa da lista " + listaDePessoas.get(0).getNome());
     }
 }
